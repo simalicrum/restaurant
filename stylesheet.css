@@ -1,0 +1,15 @@
+#title {
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+#tab-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.tab-item {
+  font-size: 24px;
+  margin: 10px;
+}
