@@ -1,5 +1,5 @@
 const renderHome = () => {
-  let homePage = document.getElementById("content");
+  let contentDiv = document.getElementById("content");
   let homeDiv = document.createElement("div");
   homeDiv.setAttribute("class", "tab-content");
   let homeTitle = document.createElement("h1");
@@ -11,7 +11,7 @@ const renderHome = () => {
   let homeCopy = document.createElement("p");
   homeCopy.innerHTML = "Our sushi is pretty great. It's made with fish and rice. You should come have some now.";
   homeDiv.appendChild(homeCopy);
-  homePage.appendChild(homeDiv);
+  contentDiv.appendChild(homeDiv);
 };
 
 export { renderHome };

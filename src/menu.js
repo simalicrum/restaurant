@@ -1,5 +1,5 @@
 const renderMenu = () => {
-  let menuPage = document.getElementById("content");
+  let contentDiv = document.getElementById("content");
   let menuDiv = document.createElement("div");
   menuDiv.setAttribute("class", "tab-content");
   let menuTitle = document.createElement("h1");
@@ -23,7 +23,7 @@ const renderMenu = () => {
   let ebiNigiriContent = document.createElement("p");
   ebiNigiriContent.innerHTML = "Ebi on rice. Everyones favorite. $2";
   menuDiv.appendChild(ebiNigiriContent);
-  menuPage.appendChild(menuDiv);
+  contentDiv.appendChild(menuDiv);
 }
 
 export {renderMenu}
