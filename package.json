@@ -1,7 +1,6 @@
 {
   "name": "restaurant",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +8,21 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "prettier-eslint": "^11.0.0",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simalicrum/restaurant.git"
+  },
+  "bugs": {
+    "url": "https://github.com/simalicrum/restaurant/issues"
+  },
+  "homepage": "https://github.com/simalicrum/restaurant#readme",
+  "description": ""
 }
